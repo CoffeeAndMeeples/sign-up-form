@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/simple-print" type="text/css"/>
+
+</head>
+<body>
+    <div class="columns">
+        <div class="left-column">
+            <div class="logo"><p>COFFEE</p><img src="./coffee.svg"><p>PLUNGE</p></div>
+            <div class="credit"> Photo By Adam Lukac https://www.pexels.com/@adam-lukac-254247/</div>
+        </div>
+        <div class="right-column">
+            <div class="top-info">
+                <p>A fake service you say!? Well, we had better get to signing you up. It's easy! Don't worry that it's not a real service. This form doesn't even have a functioning back end. Who knows where that submit button may lead? Exciting.</p>
+                <p>TAKE THE <span><em>PLUNGE!</em></span></p>
+            </div>
+            <div class="form-container">
+            <form action="example.com/form" method="post">
+                <caption><h1>Plunge the form!</h1></caption>
+            
+                <fieldset>
+                    <div class="form-block">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" name="first_name" id="first_name" placeholder="First Name" minlength="2" required>
+                    </div>
+                    <div class="form-block">
+                <label for="last_name">LAST NAME</label>
+                <input type="text" name="last_name" id="last_name" placeholder="Last Name" minlength="2" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-block">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" placeholder="name@example.com" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+                    </div>
+                    <div class="form-block">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone" placeholder="###-###-####" pattern="[0-9\-]*" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-block">
+                <label for="pwd">PASSWORD</label>
+                <input type="password" name="pwd" id="pwd" minlength="6" required>
+                    </div>
+                    <div class="form-block">
+                <label for="pwd_confirm">CONFIRM PASSWORD</label>
+                <input type="password" name="pwd_confirm" id="pwd_confirm" minlength="6" required>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="bottom-info"> 
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="temlates/login">log in</a></p>
+            </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
